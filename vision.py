@@ -30,7 +30,7 @@ def analyze_image(image_path):
     image_base64 = base64.b64encode(image_bytes).decode('utf-8')
     
     headers = {
-        'Authorization': 'Bearer sk-proj-7MvVESKpom3DmIsfp0D4T3BlbkFJIEPa6vcLLP6LZOZnmtMx',  # Correctly format the API key
+        'Authorization': 'Bearer OPENAI_API_KEY',  # Correctly format the API key
         'Content-Type': 'application/json'
     }
     data = {
